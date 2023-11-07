@@ -1,0 +1,239 @@
+/* PC用のスタイル */
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-pc-menu {
+    display: flex;
+}
+
+.nav-pc-menu li {
+    list-style: none;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+/* 最初のタグには影響なくその隣接するタグにCSSがあたる */
+.nav-pc-menu li + li {
+    margin-left: 20px;
+}
+.nav-pc-menu li a {
+    text-decoration: none;
+    color: #000;
+}
+
+h1 {
+    border: 1px solid #000;
+    padding: 10px 20px;
+    margin-left: 20px;
+}
+
+
+
+#nav-pc {
+    padding: 10px;
+    margin-right: 20px;
+    }
+
+.myprofile {
+    padding: 10px 20px;
+    border: 1px solid #000;
+}
+
+.about {
+    padding: 5px;
+    padding-left: 300px;
+}
+.work {
+    padding: 5px;
+    padding-left: 50px;
+ }
+
+#camera {
+    display: flex;
+    justify-content: center;
+    width: 960px;
+    height: 400px;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    /* position: absolute;
+    top: 109px;
+    margin-bottom: 20px; */
+}
+
+#About-main {
+    width: 960px;
+    height: 400px;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.About {
+    font-size: 34px;
+    width: 104px;
+    height: 46px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 60px;
+    /* position: absolute;
+    top: 559px;
+    left: 428px;
+    margin: 0 auto; */
+    }
+
+.About-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+
+#kazuki {
+    width: 292px;
+    height: 292px;
+    /* position: absolute;
+    top: 631px;
+    left: 171px; */
+    border-radius: 500px;
+    }
+
+    .kazuki-profile {
+        padding: 0 0 0 40px;
+    }
+
+.asahina {
+    /* width: 183px;
+    height: 33px; */
+    font-size: 24px;
+    font-weight: 700;
+    /* 行間の高さ */
+    line-height: normal;
+    color: #000;
+    /* position: absolute;
+    top: 627px;
+    left: 354px; */
+    }
+
+.intoroduce {
+    width: 405px;
+    height: 100px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: normal;
+      /* position: absolute;
+    top: 673px;
+    left: 354px; */
+
+}
+
+
+#Works-main {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    width: 960px;
+    height: 400px;
+    /* position: absolute;
+    top: 817px;
+    left: 193px; */
+}
+
+.works {
+
+    width: 104px;
+    height: 46px;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: normal;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    padding: 20px 0 20px;
+
+    /* position: relative;
+    margin: 0 auto; */
+    
+        
+}
+
+.Works {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+   
+}
+
+.Works li {
+    list-style: none;
+}
+
+
+.pic-works {
+    width: 200px;
+    margin: 12px;
+}
+
+.sight {
+    width: 200px;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+footer {
+    display: block;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    width: 577px;
+    height: 46px;
+    text-align: center;
+    padding: 40px 0 40px;
+    margin-bottom: 20px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    #Works-main {
+        height: 100%;
+        
+    }
+    .Works {
+        display: block;
+        text-align: center;
+        
+     
+
+}
+    .pic-works {
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .sight {
+        white-space: nowrap;
+    }
+
+    footer {
+        width: 960px;
+        height: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+    }
+ }
